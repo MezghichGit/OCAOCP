@@ -46,13 +46,21 @@ public class Personne {
 	
 	// bloc d'initialisation d'instance
 	{
-		String formation = "OCA OCP";
+		String formation = "OCA OCP B1";
 		System.out.println(formation);
 	}
 	
+	
+	{
+		String formation = "OCA OCP B2";
+		System.out.println(formation);
+	}
 	// bloc d'initialisation de classe
 	static {
-		System.out.println("Bloc Initialisation de la classe");
+		System.out.println("Bloc Initialisation de la classe B1");
+	}
+	static {
+		System.out.println("Bloc Initialisation de la classe B2");
 	}
 
 }

@@ -2,7 +2,7 @@ package S1_25012026;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public final static void main(String[] args) {
 	   System.out.println("Hello Java");
 	   
 	   // Les types primitifs:
