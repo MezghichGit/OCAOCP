@@ -33,6 +33,12 @@ public class CopyTextFileSample {
         }
     }
     public static void main(String[] args) throws IOException {
+    	//new File("c:\\zoo\\chat.java");
+    	//new File("c:/zoo/chat.java");
+    	
+    	System.out.println(new File("D:\\1_SIP_Academy\\Test.txt").exists());
+    	System.out.println(new File("D:/1_SIP_Academy/Test.txt").exists());
+    	
         File source = new File("Zoo.txt");
         File destination = new File("ZooCopy.txt");
 
